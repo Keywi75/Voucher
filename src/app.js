@@ -5,8 +5,8 @@ const cors = require("cors");
 
 
 
-
-
+//
+app.use(morgan('dev'))
 
 //load cac routes /. middlewares
 app.use(cors());
